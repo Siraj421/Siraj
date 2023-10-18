@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>
+        Build a Survey Form using HTML and CSS
+    </title>
+ 
+    <style>
+ 
+        /* Styling the Body element i.e. Color,
+        Font, Alignment */
+        body {
+            background-color:pink;
+            font-family: Verdana;
+            text-align:center;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color:https://png.pngtree.com/background/20210712/original/pngtree-book-education-learning-blue-background-picture-image_1183717.jpg;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align:left;
+            margin-bottom: 20px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 5px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color:pink;
+            border: 1px solid #777;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+  
+<style>
+    body {
+  background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-book-education-learning-blue-background-picture-image_1183717.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+    <h1 style="color=black">STUDENTS SURVEY FORM</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+               First Name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+        
+          <div class="form-control">
+            <label for="name" id="label-name">
+               Last Name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+          <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+        
+   <div class="form-control">
+            <label for="role" id="label-role">
+                Gender
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="Female">female</option>
+                <option value="Male">male</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+   
+    <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age" />
+        </div>
+        
+          <div class="form-control">
+            <label for="adhar number" id="label-adhar number">
+                Adhar number
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="adhar number"
+                   placeholder="Enter your adhar number" />
+         </div>
+        
+         <div class="form-control">
+            <label for="EMICS number" id="label-EMICS number">
+                EMICS number
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="EMICS number"
+                   placeholder="Enter your EMICS number" />
+         </div>
+          <div class="form-control">
+            <label for="phone number" id="phone number">
+                Phone number
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="phone number"
+                   placeholder="Enter your phone number" />
+        </div>
+        
+         <div class="form-control">
+            <label for="address" id="label-address">
+                Address
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="address"
+                   placeholder="Enter your address" />
+         </div>
+        
+         <div class="form-control">
+            <label for="village name" id="Village name">
+                Village name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="village name"
+                   placeholder="Enter your village name" />
+        </div>
+        
+          <div class="form-control">
+            <label for="district name" id="district name">
+                District name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="district name"
+                   placeholder="Enter your district name" />
+        </div>
+         <div class="form-control">
+            <label for="pin code" id="pin code">
+                Pin code
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="pin code"
+                   placeholder="Enter your pin code" />
+</div>
+        
+         <div class="form-control">
+            <label for="12 mark" id="label-12 mark">
+                12-Mark
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="12 mark"
+                   placeholder="Enter your 12 mark" />
+        </div>
+         <div class="form-control">
+            <label for="year" id="label-year">
+                Year passed out
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="year"
+                   placeholder="Enter your year" />
+        </div>
+        
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Schools name:
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+          </div>
+         <div class="form-control">
+            <label for="now you studing" id="studing">
+                Now you studing
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="studing"
+                   placeholder="Enter your studing" />
+</div>
+    
+        <div class="form-control">
+      <label>Are you studing....
+        </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">First year</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp"></input>second yesr</label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp"></input>third yesr</label>
+
+</div>
+          <div class="form-control">
+            <label for="role" id="label-role">
+                Qualification
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="Under graduate">Under graduate</option>
+                <option value="Post graduate">Post graduate</option>
+                <option value="Others">others</option>
+               
+            </select>
+        </div>
+        
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Department
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="CS">cs</option>
+                <option value="BCA">bca</option>
+                <option value="CHEMISTRY">chemistry</option>
+                <option value="BA.ENGLISH">english</option>
+                <option value="BA.MATHS">maths</option>
+                <option value="BA.PHSICS">phyics</option>                           
+
+            </select>
+        </div>
+    <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>Languages and Frameworks known
+               
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">RDBMS</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">OS Basic</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">HTML</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">CSS</input></label>
+        </div>
+  
+</div>
+
+    <div class="form-control">
+            <label>COURSE
+                
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">Type writer</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">Beacutician</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">Naan Mudhalavan</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">future skill</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Tally</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">NEPTEL</input></label>
+       
+        </div>
+  
+</div>
+ <div class="form-control">
+      <label>Are you.....
+        </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">First generation collage goer</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp"></input>None of the above</label>
+
+</div>
+
+<div class="form-control">
+      <label>Id type.....
+        </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">collage id</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp"></input>votter id</label>
+
+</div>
+            
+
+ <div class="form-control">
+            <label for="id number" id="id number">
+                Id number
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="id number"
+                   placeholder="Enter your id number" />
+</div>
+
+  <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
